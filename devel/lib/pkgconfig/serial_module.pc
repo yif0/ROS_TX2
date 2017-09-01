@@ -1,0 +1,8 @@
+prefix=/home/nvidia/RosWorkspace/devel
+
+Name: serial_module
+Description: Description of serial_module
+Version: 0.0.0
+Cflags: -I/home/nvidia/RosWorkspace/devel/include
+Libs: -L/home/nvidia/RosWorkspace/devel/lib 
+Requires: roscpp rospy std_msgs message_runtime

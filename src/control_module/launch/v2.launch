@@ -1,0 +1,7 @@
+<launch>
+  <node pkg="control_module" name="single_control_module_2" type="single_control_module" output="screen">
+    <param name="self" type="int" value="1" />
+    <param name="file" type="str" value="f_imu_states_2" />
+    <remap from="/command" to="/command_2" />
+  </node>
+</launch>

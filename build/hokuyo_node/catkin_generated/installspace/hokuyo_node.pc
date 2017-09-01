@@ -1,0 +1,8 @@
+prefix=/home/nvidia/RosWorkspace/install
+
+Name: hokuyo_node
+Description: Description of hokuyo_node
+Version: 1.7.8
+Cflags: -I/home/nvidia/RosWorkspace/install/include
+Libs: -L/home/nvidia/RosWorkspace/install/lib -llibhokuyo
+Requires: rosconsole

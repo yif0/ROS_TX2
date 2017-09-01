@@ -1,0 +1,8 @@
+prefix=/home/nvidia/RosWorkspace/devel
+
+Name: razor_imu_9dof
+Description: Description of razor_imu_9dof
+Version: 1.1.1
+Cflags: -I/home/nvidia/RosWorkspace/devel/include
+Libs: -L/home/nvidia/RosWorkspace/devel/lib 
+Requires: dynamic_reconfigure

@@ -1,0 +1,8 @@
+prefix=/home/nvidia/RosWorkspace/install
+
+Name: learned_control_module
+Description: Description of learned_control_module
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/nvidia/RosWorkspace/install/lib 
+Requires: 

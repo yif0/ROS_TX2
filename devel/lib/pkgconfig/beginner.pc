@@ -1,0 +1,8 @@
+prefix=/home/nvidia/RosWorkspace/devel
+
+Name: beginner
+Description: Description of beginner
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/nvidia/RosWorkspace/devel/lib 
+Requires: 

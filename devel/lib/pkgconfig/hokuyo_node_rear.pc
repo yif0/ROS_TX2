@@ -1,0 +1,8 @@
+prefix=/home/nvidia/RosWorkspace/devel
+
+Name: hokuyo_node_rear
+Description: Description of hokuyo_node_rear
+Version: 1.7.8
+Cflags: -I/home/nvidia/RosWorkspace/devel/include -I/home/nvidia/RosWorkspace/src/hokuyo_node_rear/include
+Libs: -L/home/nvidia/RosWorkspace/devel/lib -llibhokuyo
+Requires: rosconsole

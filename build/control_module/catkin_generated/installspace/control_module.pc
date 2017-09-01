@@ -1,0 +1,8 @@
+prefix=/home/nvidia/RosWorkspace/install
+
+Name: control_module
+Description: Description of control_module
+Version: 0.0.0
+Cflags: -I/home/nvidia/RosWorkspace/install/include
+Libs: -L/home/nvidia/RosWorkspace/install/lib 
+Requires: roscpp rospy std_msgs message_runtime

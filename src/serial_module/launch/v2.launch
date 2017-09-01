@@ -1,0 +1,8 @@
+<launch>
+  <node pkg="serial_module" name="serial_module_2" type="serial_module" output="screen">
+    <param name="self" type="int" value="1" />
+    <param name="file" type="str" value="f_imu_states_2" />
+    <remap from="/we" to="/we_2" />
+    <remap from="/command" to="/command_2" />
+  </node>
+</launch>

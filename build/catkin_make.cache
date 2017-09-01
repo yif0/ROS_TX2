@@ -1,0 +1,2 @@
+beginner:control_module:driver_common/driver_base:driver_common/driver_common:hokuyo_node:learned_control_module:razor_imu_9dof:serial_module:vicon_module
+-DCATKIN_DEVEL_PREFIX=/home/nvidia/RosWorkspace/devel -DCMAKE_INSTALL_PREFIX=/home/nvidia/RosWorkspace/install -G Unix Makefiles
